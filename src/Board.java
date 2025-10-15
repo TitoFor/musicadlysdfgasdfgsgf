@@ -55,7 +55,7 @@ public class Board {
 
     public void print() {
         System.out.println("\n" + "=".repeat(120));
-        System.out.printf("| %-30s | %-25s | %-10s | %-10s | %-15s | %-15s |%n",
+        System.out.printf("| %- 30s | %-25s | %-10s | %-10s | %-15s | %-15s |%n",
                 "name", "album", "track no.", "length", "Ft.", "explicit");
         System.out.println("=".repeat(120));
 
